@@ -1,0 +1,42 @@
+@media screen and (max-width: 320px){
+	.download{
+		background-color: #283645;
+		min-height: 271px;
+		padding-top: 28px;
+		width: 320px;
+		margin: 0 auto;
+	}
+
+	.download__slogan{
+		display: none;
+	}
+
+	.download__link{	
+		width: 280px;
+		height: 50px;
+		border: 3px solid white;
+		color: red;
+		border-radius: 25px;
+		margin-bottom: 30px;
+	}
+
+	.download__link a{
+		font-family: 'Open Sans', sans-serif;
+		font-size: 18px;
+		color: white;
+		text-decoration: none;
+	}
+
+	.download__list{
+		display: flex;
+		width: 205px;
+		justify-content: space-between;
+		margin-bottom: 30px;
+	}
+
+	.download__availability{
+		font-family: 'Open Sans', sans-serif;
+		bold: 300;
+		color: white;
+	}
+}

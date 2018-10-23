@@ -1,0 +1,87 @@
+@media screen and (max-width: 320px) {
+  .page-header {
+    background: url("../img/fonmobk.jpg") no-repeat;
+    background-position: bottom;
+    width: 280px;
+    margin: 0 auto;
+    min-height: 721px;
+    background-color: #283645; }
+  .contacts__list {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+  .site-list__item {
+    height: 63px;
+    border-top: 1px solid #485461;
+    border-bottom: 1px solid #000000; }
+  .site-list__item a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    vertical-align: center; }
+  .main-nav__list {
+    background-color: #283645;
+    margin: 0;
+    padding: 0; }
+  .main-nav__toggle .main-nav__opened {
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 24px;
+    border: none; } }
+
+ul {
+  list-style: none; }
+
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden; }
+
+@media screen and (max-width: 320px) {
+  .download {
+    background-color: #283645;
+    min-height: 271px;
+    padding-top: 28px;
+    width: 280px;
+    margin: 0 auto; }
+  .download__slogan {
+    display: none; }
+  .download__link {
+    width: 280px;
+    height: 50px;
+    border: 3px solid white;
+    color: red;
+    -webkit-border-radius: 25px;
+            border-radius: 25px;
+    margin-bottom: 30px; }
+  .download__link a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: white;
+    text-decoration: none; }
+  .download__list {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 205px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 30px; }
+  .download__availability {
+    font-family: 'Open Sans', sans-serif;
+    bold: 300;
+    color: white; } }

@@ -1,0 +1,42 @@
+
+@media screen and (max-width: 320px){
+	.page-header {
+		background: url("../img/fonmobk.jpg") no-repeat;
+		background-position: bottom;
+		width: 320px;
+		margin: 0 auto;
+		min-height: 721px;
+		background-color: #283645;
+	}
+
+	.contacts__list{
+		display: flex;
+	}
+
+	.site-list__item{
+		height: 63px;
+		border-top: 1px solid #485461;
+		border-bottom: 1px solid #000000;
+	}
+
+	.site-list__item a{
+		text-decoration: none;
+		color: white;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 18px;
+		vertical-align: center;
+	}
+
+	.main-nav__list{
+		background-color: #283645;
+		margin: 0;
+		padding: 0;
+	}
+	.main-nav__toggle .main-nav__opened{
+		position: absolute;
+		display: block;
+		width:50px;
+		height: 24px;
+		border: none;
+	}
+}
