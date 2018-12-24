@@ -1,0 +1,86 @@
+
+	.photos{
+		background: url("../img/back-mobile.jpg") center -60px no-repeat;
+		width: 320px;
+		padding-top: 35px;
+		margin: 0 auto;
+	}
+
+	.photos__caption{
+		margin: 0 auto;
+		padding-bottom: 85px;
+		font-family: 'Open Sans', sans-serif;
+		width: 170px;
+		color: white;
+		font-size: 24px;
+		font-weight: normal;
+		text-align: center;
+	}
+
+	.photos__call{
+		width: 246px;		
+		text-align: center;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 14px;
+		font-weight: normal;
+		line-height: 30px;
+		padding: 55px 37px;
+		background-color: white;
+	}
+@media (min-width: 660px){
+	.photos{
+		width: 660px;
+		margin: 0 auto;
+		background: url("../img/back-tablet@1x.jpg") center -60px no-repeat;
+		padding-top: 80px;
+	}
+
+	.photos__caption{
+		margin: 0 auto;
+		padding-bottom: 150px;
+		width: 360px;
+		font-size: 50px;		
+	}
+
+	.photos__call{
+		width: 440px;		
+		font-size: 18px;
+		padding-top: 100px;
+		padding-botton: 80px;
+		padding-right: 110px;
+		padding-left: 110px;
+		margin: 0 auto;
+	}
+}
+
+@media (min-width: 1200px){
+	.photos{
+		background: none;
+		width: 1200px;
+		margin: 0 auto;
+		padding-top: 0;
+	}
+
+	.photos__caption{
+		margin: 0 auto;
+		width: 360px;
+		font-size: 50px;	
+		padding-bottom: 103px;
+		font-weight: light;	
+	}
+
+	.photos__call{
+		width: 600px;		
+		padding-top: 100px;
+		padding-botton: 90px;
+		padding-right: 300px;
+		padding-left: 300px;
+		margin: 0 auto;
+	}
+}
+
+#twitter{
+	height: 200px;
+	width: 200px;
+	fill: pink;
+}

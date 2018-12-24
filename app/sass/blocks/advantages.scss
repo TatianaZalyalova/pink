@@ -1,0 +1,154 @@
+.advantages{
+	width: 320px;
+	margin: 0 auto;
+	background: url("../img/iphone.png")  center 720px no-repeat,
+				url("../img/fonadv-1.jpg")  center bottom no-repeat;
+	font-family: 'Open Sans', sans-serif; 
+	min-height: 1000px;
+}
+
+.advantages__caption{
+	width: 220px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 45px;
+	margin-bottom: 119px;
+	font-size: 24px;
+	font-weight: normal;
+}
+
+.advantages__list{
+	padding: 0;
+	width: 280px;
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+.advantages__title{
+	font-size: 18px;
+	margin-bottom: 24px;
+
+}
+.advantages__description{
+	font-size: 14px;
+	color: #283645;
+	margin-bottom: 42px;
+
+}
+
+@media (min-width: 660px){
+	.advantages{
+		width: 660px;
+		background: url("../img/itablet.png") 20px 244px no-repeat,
+					url("../img/greytablet.png") center 240px no-repeat;
+	}
+
+	.advantages__wrapper{
+		width: 620px;
+		margin: 0 auto;
+	}
+	
+	.advantages__list{
+		width: 300px;
+		padding-left: 10px;
+		padding-right: 10px;
+		margin-left: auto;
+		margin-right: 0;
+		text-align: left;
+	}
+
+	.advantages__caption{
+		margin-top: 59px;
+		margin-bottom: 145px;
+		width: 620px;
+		font-size: 40px;
+
+	}
+
+	.advantages__caption p{
+		padding: 0;
+		margin: 0;
+	}
+
+	.advantages__title{
+		padding: 0;
+		margin: 0;
+		margin-bottom: 20px;
+	}
+
+	.advantages__description{
+		padding: 0;
+		margin: 0;
+		margin-bottom: 47px;
+	}
+
+	}
+
+	@media (min-width: 1200px){
+
+	.advantages{
+		width: 1200px;
+		margin: 0 auto;
+		background: url("../img/greydesktop.jpg") center 325px  no-repeat;
+		min-height: 730px;
+		padding-bottom: 70px;
+		}
+
+	.advantages__wrapper{
+		width: 940px;
+		padding-right: 10px;
+		padding-left: 10px;
+		margin: 0 auto;
+		}
+
+	.advantages__caption{
+		width: 740px;
+		margin-bottom: 85px;
+		font-size: 50px;
+		}
+
+	.advantages__list{
+		width: 940px;
+		margin: 0 auto;
+		display: flex;	
+		min-height: 560px;
+		}
+
+	.advantages__list li{
+		width: 313px;
+	}
+
+	.advantages__title{
+		diplay: block;
+		width: 221px;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 360px;
+		font-size: 30px;
+		text-align: center;	
+		}
+
+	.advantages__item--mood{
+		background: url("../img/mood.png") center no-repeat;
+		}
+
+	.advantages__item--word{
+		background: url("../img/world.png") center no-repeat;
+		}
+
+	.advantages__item--friend{
+		background: url("../img/friend.png") center no-repeat;
+		}
+
+	.advantages__description{
+		diplay: block;
+		margin-top: auto;
+		width: 239px;
+		font-size: 18px;
+		text-align: center;	
+		padding-right: 37px;
+		padding-left: 37px;
+		margin-bottom: 0;
+	}
+	}

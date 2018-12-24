@@ -1,0 +1,110 @@
+	.cards{
+		width: 320px;
+		margin: 0 auto;
+	}
+
+	.cards__list{
+		width: 280px;
+		margin: 0 auto;
+	}
+
+	.cards__list--item{
+		width: 280px;
+		height: 323px;
+		margin-bottom: 20px;
+	}
+
+	.cards__item--container{
+		width:240px;
+		height: 98px;
+		padding-left: 17px;
+		padding-top: 23px;
+		padding-right: 23px;
+		padding-bottom: 26px;
+		background-color: #f2f2f2;
+		font-size: 13px;
+	}
+
+	.cards__item--photo{
+		display: block;
+		height: 180px;
+		width:280px;
+	}
+
+	.cards__item--like{
+		color: #d22856;
+	}
+
+	.cards__item--like img{
+		margin-right: 20px;
+	}
+
+	.cards__item--name{
+		font-weight: bold;
+	}
+
+	@media(min-width: 660px){
+		.cards{
+		width: 660px;
+	}
+
+	.cards__list{
+		width: 620px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.cards__list--item{
+		width: 300px;
+		height: 455px;
+	}
+
+	.cards__item--container{
+		width:250px;
+		height: 100px;
+		padding-left: 25px;
+		padding-top: 25px;
+		padding-right: 25px;
+		padding-bottom: 30px;
+	}
+
+	.cards__item--photo{
+		display: block;
+		height: 300px;
+		width: 300px;
+	}
+	}
+
+	@media(min-width: 1200px){
+		.cards{
+		width: 960px;
+	}
+
+	.cards__list{
+		width: 940px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.cards__list--item{
+		width: 300px;
+		height: 555px;
+	}
+
+	.cards__item--container{
+		width:250px;
+		height: 100px;
+		padding-left: 25px;
+		padding-top: 25px;
+		padding-right: 25px;
+		padding-bottom: 30px;
+	}
+
+	.cards__item--photo{
+		display: block;
+		height: 400px;
+		width: 300px;
+	}
+	}

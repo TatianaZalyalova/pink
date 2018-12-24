@@ -1,4 +1,4 @@
-@media screen and (max-width: 320px){
+
 	.download{
 		background-color: #283645;
 		min-height: 271px;
@@ -12,8 +12,8 @@
 	}
 
 	.download__link{	
-		width: 280px;
-		height: 50px;
+		width: 276px;
+		margin: 0 auto;
 		border: 3px solid white;
 		color: red;
 		border-radius: 25px;
@@ -21,10 +21,29 @@
 	}
 
 	.download__link a{
+		display: block;
+		font-weight: bold;
+		line-height: 32px;
 		font-family: 'Open Sans', sans-serif;
 		font-size: 18px;
 		color: white;
 		text-decoration: none;
+		text-align: center;
+		padding-top: 9px;
+		padding-bottom: 9px;
+	}
+
+	.download__link a:hover{
+		color: #d22856;
+	}
+
+	.download__link a:active{
+		color:  #f1becc;
+		
+	}
+
+	.download__link:active{
+		background-color: #ffffff;
 	}
 
 	.download__list{
@@ -32,11 +51,65 @@
 		width: 205px;
 		justify-content: space-between;
 		margin-bottom: 30px;
+		align-items: center;
+		margin: 0 auto;
 	}
 
 	.download__availability{
-		font-family: 'Open Sans', sans-serif;
-		bold: 300;
-		color: white;
+			display: block;
+			font-family: 'Open Sans', sans-serif;
+			bold: 300;
+			color: white;
+			padding-right: 15px;
+			padding-left: 15px;
+			text-aligh: center;
 	}
-}
+
+	@media (min-width: 660px){
+		.download{
+			width: 660px; 
+			background: url("../img/fontablet.png") no-repeat;
+			
+		}
+
+		.download__slogan{
+			display: block;
+			font-family: 'Open Sans', sans-serif;
+			color: white;
+			font-size: 40px;
+			font-weight: normal;
+			width: 190px;
+			text-align: center;
+			margin: 0 auto;
+			margin-bottom: 38px;
+		}
+
+		.download__container{
+			width: 300px;
+			margin-left: 20px;
+		}
+
+		.download__link{
+			margin-bottom: 58px;
+		}
+
+		.download__list{
+			margin-bottom: 44px;
+		}
+
+		.download__availability{
+			padding-bottom: 110px;
+		}
+	}
+
+	@media (min-width: 1200px){
+		.download{
+			width: 1200px;
+			background: none;
+			
+		}
+
+		.download__container{
+			margin-left: 130px;
+		}
+	}

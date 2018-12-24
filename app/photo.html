@@ -1,0 +1,227 @@
+<DOCTIPE! html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>pink</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+ 	 <meta name="format-detection" content="telephone=no">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/libs.min.css">
+	<link rel="stylesheet" type="text/css" href="css/photo.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+</head>
+<body class="pinkphoto">
+	<header class="photo-header">
+		<div class="photo-header__wrapper">
+		<a class="photo-header__logo">
+		    <picture>
+		    	<source media = "(min-width: 1200px)" srcset="img/logotype-white-desktop.svg">
+		    	<source media = "(min-width: 660px)" srcset = img/logotype-white-tablet.svg>
+		    	<img src ="img/logotype-white-mobile.svg">
+		    </picture>
+	    </a>
+	    </div>
+	    <nav class="main-nav main-nav__opened">
+        <button class=" main-nav__toggle"><span class="visually-hidden">Открыть меню</span></button>
+        <ul class="main-nav__list site-list site-list--opened">
+          <li class="site-list__item">
+            <a href="index.html">Главная</a>
+          </li>
+          <li class="site-list__item">
+            <a href="photo.html">Фотографии</a>
+          </li>
+          <li class="site-list__item">
+            <a href="form.html">Конкурс</a>
+          </li>
+          <li class="site-list__item">
+            <a href="https://htmlacademy.ru/">HTMLacademy</a>
+          </li>
+        </ul>
+      </nav>
+	</header>
+  <main>
+    <section class="photos">
+      <h2 class="photos__caption">Фотографии пользователей</h2>
+      <p class="photos__call">Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</p>   
+    </section>
+
+    <section class="panorama">
+      <picture class="panorama__img">
+        <source media = "(min-width: 1200px)" srcset="img/panorama-desktop.jpg">
+        <source media = "(min-width: 660px)" srcset="img/panorama-tablet.jpg">
+         <img src="img/panorama-mobile.jpg">
+      </picture>
+      <div class="panorama__description">
+        <p class="panorama__description--name">Анна <font>(5 минут назад)</font></p>
+        <p class="panorama__description--text">Прыгать или нет? Напишите в комментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!</p>
+        <p class="panorama__like"><img src="img/icon-heart.svg"> НРАВИТСЯ: 215</p>
+        
+      </div>
+    </section>
+
+    <section class="cards">
+      <ul class="cards__list">
+        <li class="cards__list--item">
+          <picture class="cards__item--photo">
+            <source media = "(min-width:1200px)" srcset="img/photo-1-desktop.jpg">
+            <source media = "(min-width:660px)" srcset="img/photo-1-tablet.jpg">
+            <img src="img/photo-1-mobile.jpg">
+          </picture>
+          <div class="cards__item--container">
+          <p class="cards__item--name">Левон <font>  (5 ЧАСОВ НАЗАД)</font></p>
+          <p class="cards__item--description">Вчера он на луну летал, сегодня в руки к нам попал.</p>
+          <p class="cards__item--like"><img src="img/icon-heart.svg">НРАВИТСЯ: 356</p>
+          </div>        
+        </li>
+
+         <li class="cards__list--item">
+          <picture class="cards__item--photo">
+            <source media = "(min-width:1200px)" srcset="img/photo-2-desktop.jpg">
+            <source media = "(min-width:660px)" srcset="img/photo-2-tablet.jpg">
+            <img src="img/photo-2-mobile.jpg">
+          </picture>
+          <div class="cards__item--container">
+          <p class="cards__item--name">Антон <font>(12 ЧАСОВ НАЗАД)</font></p>
+          <p class="cards__item--description">Соседи будут рады!</p>
+          <p class="cards__item--like"><img src="img/icon-heart.svg">НРАВИТСЯ: 666</p> 
+          </div>       
+        </li>
+
+         <li class="cards__list--item">
+          <picture class="cards__item--photo">
+            <source media = "(min-width:1200px)" srcset="img/photo-3-desktop.jpg">
+            <source media = "(min-width:660px)" srcset="img/photo-3-tablet.jpg">
+            <img src="img/photo-3-mobile.jpg">
+          </picture>
+          <div class="cards__item--container">
+          <p class="cards__item--name">Борис <font>(20 ЧАСОВ НАЗАД)</font></p>
+          <p class="cards__item--description">Здесь могла быть ваша цитата о высоком и бедном.</p>
+          <p class="cards__item--like"><img src="img/icon-heart.svg">НРАВИТСЯ: 215</p> 
+          </div>       
+        </li>
+
+         <li class="cards__list--item">
+          <picture class="cards__item--photo">
+            <source media = "(min-width:1200px)" srcset="img/photo-4-desktop.jpg">
+            <source media = "(min-width:660px)" srcset="img/photo-4-tablet.jpg">
+            <img src="img/photo-4-mobile.jpg">
+          </picture>
+          <div class="cards__item--container">
+          <p class="cards__item--name">Сергей <font>(25 ЧАСОВ НАЗАД)</font></p>
+          <p class="cards__item--description">Самая кубанская в мир!.</p>
+          <p class="cards__item--like"><img src="img/icon-heart.svg">НРАВИТСЯ: 4</p> 
+          </div>       
+        </li>
+
+         <li class="cards__list--item">
+          <picture class="cards__item--photo">
+            <source media = "(min-width:1200px)" srcset="img/photo-5-desktop.jpg">
+            <source media = "(min-width:660px)" srcset="img/photo-5-tablet.jpg">
+            <img src="img/photo-5-mobile.jpg">
+          </picture>
+          <div class="cards__item--container">
+          <p class="cards__item--name">Максим <font>(40 ЧАСОВ НАЗАД)</font></p>
+          <p class="cards__item--description">Где снег-то?</p>
+          <p class="cards__item--like"><img src="img/icon-heart.svg">НРАВИТСЯ: 150</p> 
+          </div>       
+        </li>
+
+         <li class="cards__list--item">
+          <picture class="cards__item--photo">
+            <source media = "(min-width:1200px)" srcset="img/photo-1-desktop.jpg">
+            <source media = "(min-width:660px)" srcset="img/photo-1-tablet.jpg">
+            <img src="img/photo-1-mobile.jpg">
+          </picture>
+          <div class="cards__item--container">
+          <p class="cards__item--name">Надежда <font>(45 ЧАСОВ НАЗАД)</font></p>
+          <p class="cards__item--description">Всем GM и взаимные лайки!</p>
+          <p class="cards__item--like"><img src="img/icon-heart.svg">НРАВИТСЯ: 2560</p> 
+          </div>       
+        </li>     
+      </ul>
+      
+    </section>
+    <section class="upload">
+      
+        <div class="upload__text">
+      <p> Затмите их всех!<br> Выкладывайте все, что накопилось в телефоне!</p>
+        </div>
+      <picture class = "upload__image">
+         <source media = "(min-width:1200px)" srcset="img/photo-7-desktop.jpg">
+         <source media = "(min-width:660px)" srcset="img/photo-7-tablet.jpg">
+         <img src="img/photo-7-mobile.jpg">
+      </picture>
+      <div class="upload__edit">
+          <svg class = "upload__edit--icon"><use xlink:href="img/sprite.svg#cropp"></use></svg>
+          <svg class = "upload__edit--icon"><use xlink:href="img/sprite.svg#fill"></use></svg>
+          <svg class = "upload__edit--icon"><use xlink:href="img/sprite.svg#contrast"></use></svg>
+      </div>    
+      <div class="upload__container">
+         <div class="upload__scale upload__scale--crop">
+          <div class="upload__bar"></div>
+          <div class="upload__range-toggle"></div>
+        </div>
+
+      <div class="upload__scale upload__scale--fill">
+          <div class="upload__bar"></div>
+          <div class="upload__range-toggle"></div>
+        </div>
+
+        <div class="upload__scale upload__scale--contrast">
+          <div class="upload__bar"></div>
+          <div class="upload__range-toggle"></div>
+        </div>
+
+        <div class="upload__button">
+          <button class="upload__button--post button">Запостить</button>
+          <button class="upload__button--cancel button">Отмена</button>  
+        </div>
+        </div>
+    </section>
+               
+  </main>
+<footer class="page-footer">
+  <div class="page-footer__container">
+  <picture class = "page-footer__logotype">
+         <source media = "(min-width:1200px)" srcset="img/logotype-blue-desktop.png">
+         <img src="img/logotype-blue-tablet.png">
+      </picture>
+	<div class="page-footer__social social">
+	<ul class="social__list">
+		<li class="social__item">
+			<a href="https://twitter.com/htmlacademy_ru">
+        <svg width="53" height="53" viewBox="0 0 53 53">
+          <use xlink:href="img/sprite.svg#twitter"></use>
+        </svg>
+      </a>
+    </li>
+
+    <li class="social__item"><a href="https://www.facebook.com/htmlacademy">
+	     <svg width="53" height="53" viewBox="0 0 53 53">
+          <use xlink:href="img/sprite.svg#facebook"></use>
+      </svg>
+      </a>
+    </li>
+	
+	<li class="social__item"><a href="https://www.youtube.com/htmlacademy">
+    <svg width="53" height="53" viewBox="0 0 53 53">
+	       <use xlink:href="img/sprite.svg#youtube"></use>
+    </svg>
+    </a>
+  </li>	
+	</ul>	
+</div>
+   <div class="page-footer__copyright copyright">
+          <b class="copyright__text">Разработано:</b>
+          <a class=" copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
+            <svg width="27" height="34" viewBox="0 0 27 34">
+                <use xlink:href="img/sprite.svg#copy"></use>
+            </svg>
+          </a>
+  </div>
+</div>
+	</footer>
+	
+  <script type="text/javascript" src="js/menu.js"></script>
+</body>
+</html>

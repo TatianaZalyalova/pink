@@ -1,0 +1,46 @@
+.contacts{
+	width: 320px;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 50px;
+	font-size: 24px;
+}
+
+.contacts__title{
+	display: block;
+	font-weight: normal;	
+	margin-bottom: 43px;
+}
+
+.contacts__list li{
+	color: #d22856;
+	margin-bottom: 28px;
+}
+
+.contacts__list b{
+	color: #000;
+	font-size: 18px;
+}
+
+@media(min-width: 660px){
+.contacts{
+	width: 660px;
+	display: flex;
+}
+
+}
+
+@media(min-width: 1200px){
+.contacts{
+	width: 1200px;
+	display: block;
+}
+
+.contacts__list{
+	display: flex;
+	width: 1000px;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+
+}

@@ -12,7 +12,7 @@ var gulp = require('gulp'),
     autoprefixer = require('gulp-autoprefixer');
     
 gulp.task('sass', function(){
-	return gulp.src('app/sass/main.scss')
+	return gulp.src('app/sass/*.scss')
 	.pipe(sass())
 	.pipe(autoprefixer(['last 15 versions', '> 1%', 'ie 8','ie 7'],{cascade: true}))
 	.pipe(gulp.dest('app/css'))
@@ -28,23 +28,7 @@ gulp.task('browser-sync', function(){
 	});
 });
 
-gulp.task('scripts', function(){
-    return gulp.src([
-    	'app/libs/jquery/dist/jquery.min.js',
-    	'app/libs/magnific-popup/dist/jquery.magnific-popup.min.js'
-    	])
-    .pipe(concat('libs.min.js'))
-    .pipe(uglify())
-    .pipe(gulp.dest('app/js'))
 
-});
-
-gulp.task('css-libs', ['sass'], function(){
-return gulp.src('app/css/libs.css')
-.pipe(cssnano())
-.pipe(rename({suffix:'.min'}))
-.pipe(gulp.dest('app/css'));
-});
 
 gulp.task('clean', function(){
 return del.sync('dist');
@@ -64,17 +48,16 @@ gulp.task('img', function(){
 	})))
 	.pipe(gulp.dest('dist/img'));
 });
-gulp.task('watch',['browser-sync', 'css-libs', 'scripts'], function(){
+gulp.task('watch',['browser-sync'], function(){
 	gulp.watch('app/sass/*.scss',['sass']);
 	gulp.watch('app/*.html', browserSync.reload);
 	gulp.watch('app/**/*.js', browserSync.reload);
 });
 
-gulp.task('build',['clean', 'img', 'sass', 'scripts'], function(){
+gulp.task('build',['clean', 'img', 'sass'], function(){
 
 var buildCss = gulp.src([
-	'app/css/main.css',
-	'app/css/libs.min.css',
+	'app/css/main.css'
 	])
      .pipe(gulp.dest('dist/css'));
      

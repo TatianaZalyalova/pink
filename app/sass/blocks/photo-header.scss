@@ -1,54 +1,50 @@
-
-	.page-header {
-		background: url("../img/fonmobk.jpg") no-repeat;
+.photo-header {
+		
 		background-position: bottom;
 		width: 320px;
-		margin: 0 auto;
-		min-height: 721px;
+		margin: 0 auto;		
 		background-color: #283645;
 	}
 
-	.page-header__wrapper{
+	.photo-header__wrapper{
 		display: flex;
 	}
 
-	.page-header__wrapper{
+	.photo-header__wrapper{
 		min-height: 70px;
 		border-bottom: 1px solid #000000;
 	}
 
-	.page-header__logo img{
+	.photo-header__logo img{
 		margin-top: 27px;
 		margin-left: 20px;
 	}
 
-	
-
 	@media (min-width: 660px){
-		.page-header{
+		.photo-header{
 			width: 660px;
 			min-height: 140px;
 			background-image: none;
 
 		}
 
-		.page-header__wrapper{
+		.photo-header__wrapper{
 			min-height: 110px;
 		}
 	}
 
 	@media (min-width: 1200px){
-		.page-header{
+		.photo-header{
 			display: flex;
 			width: 1200px;
 			background: none;
 			justify-content: space-between;
 			background: rgba(0,0,0,0.3);
-			min-height: 110px;
-			margin-bottom: 120px;
+			margin-bottom: 70px;
+			
 		}
 
-		.page-header__logo img{
+		.photo-header__logo img{
 			margin-left: 130px;
 			margin-top: 27px;
 		}

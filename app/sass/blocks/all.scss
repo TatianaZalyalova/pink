@@ -1,6 +1,9 @@
 ul {
 	list-style: none;
-}
+  margin: 0;
+  padding: 0;
+  }
+
 .visually-hidden:not(:focus):not(:active) {
   position: absolute;
 
@@ -17,3 +20,31 @@ ul {
   overflow: hidden;
 }
 
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+@media (min-width: 1200px){
+ .index{
+    
+    background: url("../img/fondesktop.jpg") no-repeat;
+    background-position: top center;
+  }
+
+ body {
+    
+    width: 1200px;
+    margin: 0 auto;
+ }
+
+ .pinkphoto{
+    background: url("../img/back-desktop.jpg") no-repeat;
+    background-position: top center;
+}
+  p{
+    padding: 0;
+    margin: 0;
+ }
+
+}
